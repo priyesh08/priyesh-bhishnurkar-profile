@@ -73,9 +73,9 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "branch": "master",
-            "email": "pitecus@gmail.com",
-            "name": "Leo Meirelles",
-            "repo": "https://github.com/pitecus/pitecus.github.io.git",
+            "email": "priyeshbhishnurkar@gmail.com",
+            "name": "Priyesh Bhishnurkar",
+            "repo": "https://github.com/priyesh08/priyesh-bhishnurkar-profile.github.io.git",
             "silent": false
           }
         },
