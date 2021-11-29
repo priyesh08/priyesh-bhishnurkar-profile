@@ -18,7 +18,7 @@
         <div class="mt-2 flex flex-row flex-wrap -mr-2">
           <div *ngFor="let commit of release.changes"
             class="shadow p-2 rounded-lg bg-gray-50 sm:w-72 print:w-72 mr-2 mb-2 flex-grow">
-            <h3 class="text-lg text-gray-700 border-b-2">
+            <h3 class="text-lg text-gray-700 border-b-2" *ngIf="commitTypes[commit.type]">
               {{commitTypes[commit.type].emoji}}
               <span class="ml-2">{{commitTypes[commit.type].title}}</span>
             </h3>
